@@ -13,7 +13,7 @@ maven { url 'https://jitpack.io' }
 then add this
 
 ```
-	        compile 'com.github.matteocrippa:BaseTypeAdapter:0.0.1'
+compile 'com.github.matteocrippa:BaseTypeAdapter:0.0.1'
 ```
 
 # Usage
@@ -24,3 +24,5 @@ Example:
 ```
 inner class ListAdapter(context: Context) : BaseTypeAdapter<Int>() {}
 ```
+
+e.g. when you will apply to adapter.data any list of Int, this will auto refresh the entire list.
